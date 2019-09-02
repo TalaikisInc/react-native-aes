@@ -2,6 +2,10 @@
 
 AES encryption/decryption for react-native
 
+## NOTE
+
+This fork is meant to work with RN 0.60+, minSdk = 16, buildSdk = 28, but DOES NOT WORK, maybe will debug later.
+
 ## Installation
 
 ```sh
@@ -36,7 +40,7 @@ project(':react-native-aes-crypto').projectDir = new File(rootProject.projectDir
 ...
 dependencies {
     ...
-    compile project(':react-native-aes-crypto')
+    implementation project(':react-native-aes-crypto')
 }
 ```
 
